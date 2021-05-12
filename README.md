@@ -1,6 +1,6 @@
 # Books-js
 
-- [learn]: [What is JavaScript]
+- [learn]: [JavaScript First Steps]
 
 [learn]: learn
-[what is javascript]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+[javascript first steps]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
