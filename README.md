@@ -1,6 +1,6 @@
 # Books-js
 
-- [learn]: [JavaScript First Steps]
+- [client]: JavaScript -- [Dynamic client-side scripting]
 
-[learn]: learn
-[javascript first steps]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps
+[client]: client
+[dynamic client-side scripting]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
