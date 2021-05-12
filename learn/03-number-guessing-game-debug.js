@@ -1,13 +1,15 @@
-let randomNumber = Math.floor(Math.random()) + 1
+let randomNumber = Math.floor(Math.random()*100) + 1
 
 const guesses = document.querySelector('.guesses')
 const lastResult = document.querySelector('.lastResult')
-const lowOrHi = document.querySelector('lowOrHi')
+const lowOrHi = document.querySelector('.lowOrHi')
 const guessSubmit = document.querySelector('.guessSubmit')
 const guessField = document.querySelector('.guessField')
 
 let guessCount = 1
 let resetButton
+
+guessSubmit.addEventListener('click', checkGuess)
 
 function checkGuess() {
     let userGuess = Number(guessField.value)
@@ -44,7 +46,7 @@ function setGameOver() {
     resetButton = document.createElement('button')
     resetButton.textContent = 'Start new game'
     document.body.appendChild(resetButton)
-    resetButton.addeventListener('click', resetGame)
+    resetButton.addEventListener('click', resetGame)
 }
 
 function resetGame() {
@@ -60,5 +62,5 @@ function resetGame() {
     guessField.value = ''
     guessField.focus()
     lastResult.style.backgroundColor = 'white'
-    randomNumber = Math.floor(Math.random()) + 1
+    randomNumber = Math.floor(Math.random()*100) + 1
 }
