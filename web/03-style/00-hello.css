@@ -1,0 +1,17 @@
+/* here we are styling the body */
+body {
+	background: lightcyan; /* Set the background to a light bluish color */
+	color: #ff0000;        /* Set the foreground color to red */
+	width: 80%;            /* Set the body width to 80% */
+}
+
+h1 {
+	color: maroon;
+	text-align: center;
+}
+
+p {
+	color: gray;
+	border: 1px solid gray;
+	padding: 10px;
+}

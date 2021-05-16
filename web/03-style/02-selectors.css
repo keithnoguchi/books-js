@@ -1,0 +1,36 @@
+h1 {
+	background: black;
+	color: white;
+}
+
+p.first {
+	color: red;
+	margin: 10px;
+	padding: 20px;
+}
+
+a {
+	color: cornflowerblue;
+	text-decoration: none;
+}
+
+a:visited {
+	color: tomato;
+}
+
+ol {
+	border: 5px solid darksalmon;
+	border-radius: 10px;
+}
+
+.content li {
+	color: brown;
+}
+
+li:first-child {
+	background: yellow;
+}
+
+li:nth-child(2) {
+	background: orange;
+}
