@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Show video box example</title>
+    <link href="12-show-video-box.css" rel="stylesheet" type="text/css">
+    <script defer src="12-show-video-box.js"></script>
+  </head>
+  <body>
+    <button>Display video</button>
+    <div class="hidden">
+      <video>
+        <source src="videos/rabbit320.mp4" type="video/mp4">
+        <source src="videos/rabbit320.webm" type="video/webm">
+        <p>
+          Your browser doesn't supprot HTML5 video.  Here is a
+          <a href="videos/rabbit320.mp4">Link to the video</a> instead.
+        </p>
+      </video>
+    </div>
+  </body>
+</html>
