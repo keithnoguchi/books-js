@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding-left: 0;
+	padding: 10px;
+}
+
+li {
+	display: block;
+	float: left;
+	width: 14%;
+	border: 2px solid white;
+	padding: 5px;
+	height: 80px;
+	background-color: #4a2db6;
+	color: white;
+}
